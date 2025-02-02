@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        window.onload = function () {
+            // Open a new Chrome tab with "Happy Birthday"
+            window.location.href = "data:text/html,<html><head><title>Happy Birthday</title></head><body><h1 style='text-align:center; font-size:50px;'>🎉 Happy Birthday! 🎉</h1></body></html>";
+        };
+    </script>
+</head>
+<body>
+    <p>If you are not redirected, <a href="data:text/html,<html><head><title>Happy Birthday</title></head><body><h1 style='text-align:center; font-size:50px;'>🎉 Happy Birthday! 🎉</h1></body></html>">click here</a>.</p>
+</body>
+</html>
